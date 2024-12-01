@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "jsx": "preserve",
+    "paths": {
+      "@/src/*": [
+        "src/*"
+      ],
+      "@/css/*": [
+        "src/css/*"
+      ],
+      "@/app/*": [
+        "src/app/*"
+      ],
+      "@/hooks/*": [
+        "src/hooks/*"
+      ],
+      "@/actions/*": [
+        "src/actions/*"
+      ],
+      "@/components/*": [
+        "src/components/*"
+      ]
+    },
+    "module": "ESnext",
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "incremental": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "moduleResolution": "bundler",
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "target": "ES2017"
+  },
+  "include": [
+    "src/",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

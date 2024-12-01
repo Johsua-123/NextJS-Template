@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-template",
+  "author": "Johsua",
+  "version": "1.0.0",
+  "description": "Next + Sass + TypeScript + TailwindCSS",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "next": "^15.0.3",
+    "postcss": "^8.4.47",
+    "sass": "1.78.0",
+    "stylelint": "^16.11.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-tailwindcss": "^0.0.7",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.7.2"
+  }
+}

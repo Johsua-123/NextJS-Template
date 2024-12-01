@@ -1,0 +1,11 @@
+
+@tailwind base;
+@tailwind utilities;
+
+.container-1 {
+    @apply flex;
+    height: 100vh;
+    @apply flex-col;
+    @apply items-center;
+    @apply justify-center;
+}

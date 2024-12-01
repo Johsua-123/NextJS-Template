@@ -1,0 +1,11 @@
+
+{
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-tailwindcss"
+    ],
+    "rules": {
+        "block-no-empty": null,
+        "comment-no-empty": null
+    }
+}
