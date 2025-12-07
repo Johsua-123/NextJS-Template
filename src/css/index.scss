@@ -1,11 +1,24 @@
 
+/* Tailwind CSS Directives */
 @tailwind base;
 @tailwind utilities;
 
+/* Custom Styles */
 .container-1 {
     @apply flex;
     height: 100vh;
     @apply flex-col;
     @apply items-center;
     @apply justify-center;
+}
+
+.prueba-1 {
+    @apply flex;
+    @apply gap-4;
+}
+
+.prueba {
+    @apply prueba-1;
+    @apply uppercase;
+    @apply text-red-600
 }
